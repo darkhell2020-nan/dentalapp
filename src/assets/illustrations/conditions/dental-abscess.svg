@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Dental abscess</title>
+  <desc id="desc">Clinical dental illustration</desc>
+  <defs>
+    <linearGradient id="toothGrad" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#E8E1D6"/>
+    </linearGradient>
+    <linearGradient id="gumGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7A5AE"/>
+      <stop offset="100%" stop-color="#D96C7A"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3F6F8"/>
+      <stop offset="45%" stop-color="#A9B4BE"/>
+      <stop offset="100%" stop-color="#68737D"/>
+    </linearGradient>
+    <linearGradient id="zirconiaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DDE8EA"/>
+    </linearGradient>
+    <linearGradient id="acrylicGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8BAC2"/>
+      <stop offset="100%" stop-color="#D98492"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F2430" flood-opacity=".14"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F2430" flood-opacity=".10"/>
+    </filter>
+    <style>
+      .outline{stroke:#17384A;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#17384A;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+      .tooth{fill:url(#toothGrad)}
+      .gum{fill:url(#gumGrad)}
+      .metal{fill:url(#metalGrad)}
+      .enamel{fill:#FFF9EC}
+      .dentine{fill:#F2D6A8}
+      .pulp{fill:#D85D68}
+      .bone{fill:#E7D9C4}
+      .navy{fill:#17384A}
+      .teal{fill:#3B8C88}
+      .cyan{fill:#7EC8C5}
+      .amber{fill:#E9A23B}
+      .danger{fill:#C84F5F}
+      .muted{fill:#8CA0AA}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#F7FAFC"/>
+  <rect x="65" y="65" width="1470" height="870" rx="52" fill="#FFFFFF" filter="url(#shadow)"/>
+
+<path d="M280 640 C420 550 580 565 760 640 C930 710 1130 705 1320 620 L1320 800 L280 800 Z" class="bone outline"/>
+    <path d="M250 600 C450 500 610 510 795 595 C980 680 1150 660 1350 560 L1350 680 C1160 760 975 780 785 700 C600 620 430 610 250 700 Z" class="gum outline"/>
+<path d="M 638.5 294.0
+      C 587.5 217.5, 689.5 149.5, 770.25 209.0
+      C 817.0 158.0, 902.0 149.5, 961.5 221.75
+      C 1012.5 298.25, 948.75 383.25, 914.75 438.5
+      L 878.2 702.0
+      C 863.75 795.5, 817.0 795.5, 804.25 702.0
+      L 793.2 515.0
+      L 753.25 719.0
+      C 732.0 812.5, 676.75 787.0, 685.25 697.75
+      L 710.75 442.75
+      C 672.5 396.0, 625.75 353.5, 638.5 294.0 Z"
+      class="tooth outline"/>
+<path d="M 676.75 302.5
+      C 647.0 247.25, 719.25 213.25, 774.5 251.5
+      C 817.0 213.25, 880.75 209.0, 923.25 264.25
+      C 953.0 311.0, 906.25 370.5, 876.5 417.25
+      L 846.75 642.5
+      C 840.8 697.75, 821.25 697.75, 815.3 634.0
+      L 800 476.75
+      L 770.25 646.75
+      C 761.75 702.0, 740.5 689.25, 747.3 629.75
+      L 744.75 421.5
+      C 715.0 383.25, 676.75 345.0, 676.75 302.5 Z"
+      fill="#F2D6A8" opacity=".95"/>
+<path d="M 753.25 306.75
+      C 732.0 281.25, 774.5 255.75, 800 281.25
+      C 825.5 255.75, 863.75 277.0, 851.0 315.25
+      L 821.25 638.25
+      C 816.15 676.5, 804.25 672.25, 800 629.75
+      L 795.75 459.75
+      L 778.75 638.25
+      C 772.8 676.5, 761.75 668.0, 766.0 625.5
+      Z" class="pulp"/>
+<path d="M 855.25 230.25 C 906.25 251.5, 902.0 328.0, 863.75 368.8
+        C 832.3 397.7, 795.75 374.75, 806.8 328.0
+        C 815.3 289.75, 821.25 243.0, 855.25 230.25 Z" fill="#6B4430"/>
+        <circle cx="832.3" cy="355.2" r="20.4" fill="#C84F5F" opacity=".9"/>
+<circle cx="848" cy="785" r="66" fill="#C84F5F" opacity=".88"/><circle cx="848" cy="785" r="28" fill="#FFD6DB"/>
+<path d="M1010 760 C1080 720 1110 660 1135 610" fill="none" stroke="#C84F5F" stroke-width="14" stroke-linecap="round"/>
+<g>
+      <rect x="1100" y="540" width="260" height="66" rx="22" fill="#EEF4F5" stroke="#D6E4E6" stroke-width="3"/>
+      <text x="1126" y="583" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#17384A">Abscess</text>
+    </g>
+</svg>

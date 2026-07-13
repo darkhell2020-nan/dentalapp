@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Root canal versus extraction</title>
+  <desc id="desc">Clinical dental illustration</desc>
+  <defs>
+    <linearGradient id="toothGrad" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#E8E1D6"/>
+    </linearGradient>
+    <linearGradient id="gumGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7A5AE"/>
+      <stop offset="100%" stop-color="#D96C7A"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3F6F8"/>
+      <stop offset="45%" stop-color="#A9B4BE"/>
+      <stop offset="100%" stop-color="#68737D"/>
+    </linearGradient>
+    <linearGradient id="zirconiaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DDE8EA"/>
+    </linearGradient>
+    <linearGradient id="acrylicGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8BAC2"/>
+      <stop offset="100%" stop-color="#D98492"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F2430" flood-opacity=".14"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F2430" flood-opacity=".10"/>
+    </filter>
+    <style>
+      .outline{stroke:#17384A;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#17384A;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+      .tooth{fill:url(#toothGrad)}
+      .gum{fill:url(#gumGrad)}
+      .metal{fill:url(#metalGrad)}
+      .enamel{fill:#FFF9EC}
+      .dentine{fill:#F2D6A8}
+      .pulp{fill:#D85D68}
+      .bone{fill:#E7D9C4}
+      .navy{fill:#17384A}
+      .teal{fill:#3B8C88}
+      .cyan{fill:#7EC8C5}
+      .amber{fill:#E9A23B}
+      .danger{fill:#C84F5F}
+      .muted{fill:#8CA0AA}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#F7FAFC"/>
+  <rect x="65" y="65" width="1470" height="870" rx="52" fill="#FFFFFF" filter="url(#shadow)"/>
+
+<line x1="800" y1="150" x2="800" y2="850" stroke="#DDE7EA" stroke-width="5" stroke-dasharray="16 16"/>
+    <circle cx="800" cy="500" r="34" fill="#FFFFFF" stroke="#DDE7EA" stroke-width="5"/>
+    <path d="M787 488 L775 500 L787 512 M813 488 L825 500 L813 512" fill="none" stroke="#3B8C88" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 363.20000000000005 334.8
+      C 320.0 270.0, 406.4 212.4, 474.8 262.8
+      C 514.4 219.60000000000002, 586.4 212.4, 636.8 273.6
+      C 680.0 338.4, 626.0 410.4, 597.2 457.2
+      L 566.24 680.4
+      C 554.0 759.5999999999999, 514.4 759.5999999999999, 503.6 680.4
+      L 494.24 522.0
+      L 460.4 694.8
+      C 442.4 774.0, 395.6 752.4, 402.8 676.8
+      L 424.4 460.8
+      C 392.0 421.2, 352.4 385.2, 363.20000000000005 334.8 Z"
+      class="tooth outline"/>
+<path d="M 395.6 342.0
+      C 370.4 295.20000000000005, 431.6 266.4, 478.4 298.8
+      C 514.4 266.4, 568.4 262.8, 604.4 309.6
+      C 629.6 349.2, 590.0 399.6, 564.8 439.2
+      L 539.6 630.0
+      C 534.56 676.8, 518.0 676.8, 512.96 622.8
+      L 500 489.6
+      L 474.8 633.6
+      C 467.6 680.4, 449.6 669.6, 455.36 619.2
+      L 453.2 442.8
+      C 428.0 410.4, 395.6 378.0, 395.6 342.0 Z"
+      fill="#F2D6A8" opacity=".95"/>
+<path d="M 460.4 345.6
+      C 442.4 324.0, 478.4 302.4, 500 324.0
+      C 521.6 302.4, 554.0 320.4, 543.2 352.8
+      L 518.0 626.4
+      C 513.68 658.8, 503.6 655.2, 500 619.2
+      L 496.4 475.2
+      L 482.0 626.4
+      C 476.96 658.8, 467.6 651.6, 471.2 615.6
+      Z" class="pulp"/>
+<path d="M 491.36 414.0 L 488.48 637.2" stroke="#E9A23B" stroke-width="12.959999999999999" stroke-linecap="round"/>
+        <path d="M 512.96 421.2 L 514.4 626.4" stroke="#E9A23B" stroke-width="12.959999999999999" stroke-linecap="round"/>
+<path d="M900 640 C420 550 580 565 760 640 C930 710 1130 705 1380 620 L1380 800 L900 800 Z" class="bone outline"/>
+    <path d="M900 600 C450 500 610 510 795 595 C980 680 1150 660 1400 560 L1400 680 C1160 760 975 780 785 700 C600 620 430 610 900 700 Z" class="gum outline"/>
+<path d="M1110 420 C1080 300 1100 250 1140 220" fill="none" stroke="#68737D" stroke-width="28" stroke-linecap="round"/>
+</svg>
