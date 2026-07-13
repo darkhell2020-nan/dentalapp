@@ -1,0 +1,2 @@
+import type { LanguageMode } from '../../types/content';
+export function LanguageToggle({value,onChange}:{value:LanguageMode;onChange:(v:LanguageMode)=>void}){return <div role="group" aria-label="Language" className="flex gap-1 rounded-full bg-slate-100 p-1">{(['en','bm','both'] as LanguageMode[]).map(l=><button key={l} className={`btn ${value===l?'btn-primary':''}`} onClick={()=>onChange(l)}>{l==='en'?'EN':l==='bm'?'BM':'EN+BM'}</button>)}</div>}
