@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Gingivitis</title>
+  <desc id="desc">Clinical dental illustration</desc>
+  <defs>
+    <linearGradient id="toothGrad" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#E8E1D6"/>
+    </linearGradient>
+    <linearGradient id="gumGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7A5AE"/>
+      <stop offset="100%" stop-color="#D96C7A"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3F6F8"/>
+      <stop offset="45%" stop-color="#A9B4BE"/>
+      <stop offset="100%" stop-color="#68737D"/>
+    </linearGradient>
+    <linearGradient id="zirconiaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DDE8EA"/>
+    </linearGradient>
+    <linearGradient id="acrylicGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8BAC2"/>
+      <stop offset="100%" stop-color="#D98492"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F2430" flood-opacity=".14"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F2430" flood-opacity=".10"/>
+    </filter>
+    <style>
+      .outline{stroke:#17384A;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#17384A;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+      .tooth{fill:url(#toothGrad)}
+      .gum{fill:url(#gumGrad)}
+      .metal{fill:url(#metalGrad)}
+      .enamel{fill:#FFF9EC}
+      .dentine{fill:#F2D6A8}
+      .pulp{fill:#D85D68}
+      .bone{fill:#E7D9C4}
+      .navy{fill:#17384A}
+      .teal{fill:#3B8C88}
+      .cyan{fill:#7EC8C5}
+      .amber{fill:#E9A23B}
+      .danger{fill:#C84F5F}
+      .muted{fill:#8CA0AA}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#F7FAFC"/>
+  <rect x="65" y="65" width="1470" height="870" rx="52" fill="#FFFFFF" filter="url(#shadow)"/>
+
+<path d="M280 640 C420 550 580 565 760 640 C930 710 1130 705 1320 620 L1320 800 L280 800 Z" class="bone outline"/>
+    <path d="M250 600 C450 500 610 510 795 595 C980 680 1150 660 1350 560 L1350 680 C1160 760 975 780 785 700 C600 620 430 610 250 700 Z" class="gum outline"/>
+<g transform="translate(540 180)"><path d="M 155.5 132.0
+      C 122.5 82.5, 188.5 38.49999999999997, 240.75 77.0
+      C 271.0 44.0, 326.0 38.49999999999997, 364.5 85.25
+      C 397.5 134.75, 356.25 189.75, 334.25 225.5
+      L 310.6 396.0
+      C 301.25 456.5, 271.0 456.5, 262.75 396.0
+      L 255.6 275.0
+      L 229.75 407.0
+      C 216.0 467.5, 180.25 451.0, 185.75 393.25
+      L 202.25 228.25
+      C 177.5 198.0, 147.25 170.5, 155.5 132.0 Z"
+      class="tooth outline"/>
+<path d="M 180.25 137.5
+      C 161.0 101.74999999999999, 207.75 79.75, 243.5 104.49999999999999
+      C 271.0 79.75, 312.25 77.0, 339.75 112.74999999999999
+      C 359.0 143.0, 328.75 181.5, 309.5 211.75
+      L 290.25 357.5
+      C 286.4 393.25, 273.75 393.25, 269.9 352.0
+      L 260 250.25
+      L 240.75 360.25
+      C 235.25 396.0, 221.5 387.75, 225.9 349.25
+      L 224.25 214.5
+      C 205.0 189.75, 180.25 165.0, 180.25 137.5 Z"
+      fill="#F2D6A8" opacity=".95"/>
+<path d="M 229.75 140.25
+      C 216.0 123.74999999999999, 243.5 107.24999999999999, 260 123.74999999999999
+      C 276.5 107.24999999999999, 301.25 120.99999999999999, 293.0 145.75
+      L 273.75 354.75
+      C 270.45 379.5, 262.75 376.75, 260 349.25
+      L 257.25 239.25
+      L 246.25 354.75
+      C 242.4 379.5, 235.25 374.0, 238.0 346.5
+      Z" class="pulp"/></g>
+<path d="M480 612 C600 545 760 555 920 620 C1050 670 1150 665 1230 625" fill="none" stroke="#C84F5F" stroke-width="46" stroke-linecap="round"/>
+<g>
+      <rect x="180" y="170" width="260" height="66" rx="22" fill="#EEF4F5" stroke="#D6E4E6" stroke-width="3"/>
+      <text x="206" y="213" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#17384A">Inflamed gum margin</text>
+    </g>
+<g>
+      <rect x="1130" y="170" width="260" height="66" rx="22" fill="#EEF4F5" stroke="#D6E4E6" stroke-width="3"/>
+      <text x="1156" y="213" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#17384A">Bone intact</text>
+    </g>
+</svg>

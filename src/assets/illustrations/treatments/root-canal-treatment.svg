@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Root canal treatment</title>
+  <desc id="desc">Clinical dental illustration</desc>
+  <defs>
+    <linearGradient id="toothGrad" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#E8E1D6"/>
+    </linearGradient>
+    <linearGradient id="gumGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7A5AE"/>
+      <stop offset="100%" stop-color="#D96C7A"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3F6F8"/>
+      <stop offset="45%" stop-color="#A9B4BE"/>
+      <stop offset="100%" stop-color="#68737D"/>
+    </linearGradient>
+    <linearGradient id="zirconiaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DDE8EA"/>
+    </linearGradient>
+    <linearGradient id="acrylicGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8BAC2"/>
+      <stop offset="100%" stop-color="#D98492"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F2430" flood-opacity=".14"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F2430" flood-opacity=".10"/>
+    </filter>
+    <style>
+      .outline{stroke:#17384A;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#17384A;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+      .tooth{fill:url(#toothGrad)}
+      .gum{fill:url(#gumGrad)}
+      .metal{fill:url(#metalGrad)}
+      .enamel{fill:#FFF9EC}
+      .dentine{fill:#F2D6A8}
+      .pulp{fill:#D85D68}
+      .bone{fill:#E7D9C4}
+      .navy{fill:#17384A}
+      .teal{fill:#3B8C88}
+      .cyan{fill:#7EC8C5}
+      .amber{fill:#E9A23B}
+      .danger{fill:#C84F5F}
+      .muted{fill:#8CA0AA}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#F7FAFC"/>
+  <rect x="65" y="65" width="1470" height="870" rx="52" fill="#FFFFFF" filter="url(#shadow)"/>
+
+<path d="M 610.0 280.0
+      C 550.0 190.0, 670.0 110.0, 765.0 180.0
+      C 820.0 120.0, 920.0 110.0, 990.0 195.0
+      C 1050.0 285.0, 975.0 385.0, 935.0 450.0
+      L 892.0 760.0
+      C 875.0 870.0, 820.0 870.0, 805.0 760.0
+      L 792.0 540.0
+      L 745.0 780.0
+      C 720.0 890.0, 655.0 860.0, 665.0 755.0
+      L 695.0 455.0
+      C 650.0 400.0, 595.0 350.0, 610.0 280.0 Z"
+      class="tooth outline"/>
+<path d="M 655.0 290.0
+      C 620.0 225.0, 705.0 185.0, 770.0 230.0
+      C 820.0 185.0, 895.0 180.0, 945.0 245.0
+      C 980.0 300.0, 925.0 370.0, 890.0 425.0
+      L 855.0 690.0
+      C 848.0 755.0, 825.0 755.0, 818.0 680.0
+      L 800 495.0
+      L 765.0 695.0
+      C 755.0 760.0, 730.0 745.0, 738.0 675.0
+      L 735.0 430.0
+      C 700.0 385.0, 655.0 340.0, 655.0 290.0 Z"
+      fill="#F2D6A8" opacity=".95"/>
+<path d="M 745.0 295.0
+      C 720.0 265.0, 770.0 235.0, 800 265.0
+      C 830.0 235.0, 875.0 260.0, 860.0 305.0
+      L 825.0 685.0
+      C 819.0 730.0, 805.0 725.0, 800 675.0
+      L 795.0 475.0
+      L 775.0 685.0
+      C 768.0 730.0, 755.0 720.0, 760.0 670.0
+      Z" class="pulp"/>
+<path d="M 788.0 390.0 L 784.0 700.0" stroke="#E9A23B" stroke-width="18.0" stroke-linecap="round"/>
+        <path d="M 818.0 400.0 L 820.0 685.0" stroke="#E9A23B" stroke-width="18.0" stroke-linecap="round"/>
+<g>
+      <rect x="160" y="170" width="260" height="66" rx="22" fill="#EEF4F5" stroke="#D6E4E6" stroke-width="3"/>
+      <text x="186" y="213" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#17384A">Cleaned canals</text>
+    </g>
+<g>
+      <rect x="1130" y="170" width="260" height="66" rx="22" fill="#EEF4F5" stroke="#D6E4E6" stroke-width="3"/>
+      <text x="1156" y="213" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#17384A">Root filling</text>
+    </g>
+</svg>
