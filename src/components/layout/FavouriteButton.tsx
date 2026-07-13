@@ -1,0 +1,2 @@
+import { Star } from 'lucide-react';
+export function FavouriteButton({active,onClick,label='Favourite'}:{active:boolean;onClick:()=>void;label?:string}){return <button className="btn" aria-label={label} onClick={onClick}><Star size={18} strokeWidth={2.2} fill={active?'#c7902d':'none'} color={active?'#936916':'currentColor'}/><span className="hidden sm:inline">{active?'Saved':'Save'}</span></button>}

@@ -1,0 +1,11 @@
+# DentVisual Agent Instructions
+- Product purpose: chairside visual-reference aid for qualified dental professionals.
+- The user is the dentist, not the patient; optimise for dentist-controlled consultation flow.
+- Prioritise speed, simplicity and three-tap access to visuals.
+- Do not add patient accounts, patient records, uploads, PII or patient data storage.
+- Keep all topic content bilingual in English and natural Malaysian Bahasa Melayu.
+- Keep SVG illustrations reusable, local, original and replaceable by commissioned artwork.
+- Maintain offline/PWA functionality and do not rely on remote assets.
+- Run tests and production build after meaningful changes.
+- Do not introduce a backend without explicit instruction.
+- Avoid scope creep: no diagnosis engine, medication advice, analytics or payments.
