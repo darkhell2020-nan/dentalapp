@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Acrylic denture</title>
+  <desc id="desc">Clinical dental illustration</desc>
+  <defs>
+    <linearGradient id="toothGrad" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#E8E1D6"/>
+    </linearGradient>
+    <linearGradient id="gumGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7A5AE"/>
+      <stop offset="100%" stop-color="#D96C7A"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3F6F8"/>
+      <stop offset="45%" stop-color="#A9B4BE"/>
+      <stop offset="100%" stop-color="#68737D"/>
+    </linearGradient>
+    <linearGradient id="zirconiaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DDE8EA"/>
+    </linearGradient>
+    <linearGradient id="acrylicGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8BAC2"/>
+      <stop offset="100%" stop-color="#D98492"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F2430" flood-opacity=".14"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F2430" flood-opacity=".10"/>
+    </filter>
+    <style>
+      .outline{stroke:#17384A;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#17384A;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+      .tooth{fill:url(#toothGrad)}
+      .gum{fill:url(#gumGrad)}
+      .metal{fill:url(#metalGrad)}
+      .enamel{fill:#FFF9EC}
+      .dentine{fill:#F2D6A8}
+      .pulp{fill:#D85D68}
+      .bone{fill:#E7D9C4}
+      .navy{fill:#17384A}
+      .teal{fill:#3B8C88}
+      .cyan{fill:#7EC8C5}
+      .amber{fill:#E9A23B}
+      .danger{fill:#C84F5F}
+      .muted{fill:#8CA0AA}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#F7FAFC"/>
+  <rect x="65" y="65" width="1470" height="870" rx="52" fill="#FFFFFF" filter="url(#shadow)"/>
+
+<path d="M 440 640 Q 800 420 1160 640" fill="none" stroke="#D96C7A" stroke-width="120" stroke-linecap="round"/>
+<rect x="461.8308609334615" y="498.12632784772575" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(295 499.8308609334615 556.1263278477257)"/>
+<rect x="508.28608043899453" y="459.64072582679296" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(310 546.2860804389945 517.640725826793)"/>
+<rect x="572.0314842805335" y="428.81222265828427" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(325 610.0314842805335 486.81222265828427)"/>
+<rect x="648.7229285305386" y="407.7417298866232" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(340 686.7229285305386 465.7417298866232)"/>
+<rect x="733.1340180019756" y="397.86516677356286" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(355 771.1340180019756 455.86516677356286)"/>
+<rect x="819.5122764432872" y="399.855604773466" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(370 857.5122764432872 457.855604773466)"/>
+<rect x="901.9711682885197" y="413.57739882599355" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(385 939.9711682885197 471.57739882599355)"/>
+<rect x="974.8912563281817" y="438.0954313428026" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(400 1012.8912563281817 496.0954313428026)"/>
+<rect x="1033.3031570685139" y="471.73883892583706" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(415 1071.3031570685139 529.7388389258371)"/>
+<rect x="1073.226196004293" y="512.2148789466731" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(430 1111.226196004293 570.2148789466731)"/>
+<path d="M440 610 Q800 280 1160 610 Q800 860 440 610 Z" fill="url(#acrylicGrad)" stroke="#17384A" stroke-width="8" opacity=".92"/>
+</svg>

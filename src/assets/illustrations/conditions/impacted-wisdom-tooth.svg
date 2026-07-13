@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Impacted wisdom tooth</title>
+  <desc id="desc">Clinical dental illustration</desc>
+  <defs>
+    <linearGradient id="toothGrad" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#E8E1D6"/>
+    </linearGradient>
+    <linearGradient id="gumGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7A5AE"/>
+      <stop offset="100%" stop-color="#D96C7A"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3F6F8"/>
+      <stop offset="45%" stop-color="#A9B4BE"/>
+      <stop offset="100%" stop-color="#68737D"/>
+    </linearGradient>
+    <linearGradient id="zirconiaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DDE8EA"/>
+    </linearGradient>
+    <linearGradient id="acrylicGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8BAC2"/>
+      <stop offset="100%" stop-color="#D98492"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F2430" flood-opacity=".14"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F2430" flood-opacity=".10"/>
+    </filter>
+    <style>
+      .outline{stroke:#17384A;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#17384A;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+      .tooth{fill:url(#toothGrad)}
+      .gum{fill:url(#gumGrad)}
+      .metal{fill:url(#metalGrad)}
+      .enamel{fill:#FFF9EC}
+      .dentine{fill:#F2D6A8}
+      .pulp{fill:#D85D68}
+      .bone{fill:#E7D9C4}
+      .navy{fill:#17384A}
+      .teal{fill:#3B8C88}
+      .cyan{fill:#7EC8C5}
+      .amber{fill:#E9A23B}
+      .danger{fill:#C84F5F}
+      .muted{fill:#8CA0AA}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#F7FAFC"/>
+  <rect x="65" y="65" width="1470" height="870" rx="52" fill="#FFFFFF" filter="url(#shadow)"/>
+
+<path d="M 440 590 Q 770 385 1100 590" fill="none" stroke="#D96C7A" stroke-width="120" stroke-linecap="round"/>
+<rect x="456.84495585567305" y="453.95845985974745" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(295 494.84495585567305 511.95845985974745)"/>
+<rect x="499.42890706907826" y="418.51119484046717" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(310 537.4289070690783 476.51119484046717)"/>
+<rect x="557.8621939238224" y="390.11652086947237" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(325 595.8621939238224 448.11652086947237)"/>
+<rect x="628.1626844863271" y="370.7094880534687" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(340 666.1626844863271 428.7094880534687)"/>
+<rect x="705.5395165018109" y="361.61265360722894" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(355 743.5395165018109 419.61265360722894)"/>
+<rect x="784.7195867396799" y="363.44595176503447" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(370 822.7195867396799 421.44595176503447)"/>
+<rect x="860.3069042644764" y="376.08444628709935" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(385 898.3069042644764 434.08444628709935)"/>
+<rect x="927.1503183008333" y="398.66684465784454" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(400 965.1503183008333 456.66684465784454)"/>
+<rect x="980.6945606461379" y="429.6541937474815" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(415 1018.6945606461379 487.6541937474815)"/>
+<rect x="1017.2906796706018" y="466.9347569245674" width="76" height="116" rx="28" fill="url(#toothGrad)" stroke="#17384A" stroke-width="5" transform="rotate(430 1055.2906796706018 524.9347569245674)"/>
+<g transform="rotate(-48 1185 620)"><rect x="1125" y="540" width="110" height="180" rx="42" fill="url(#toothGrad)" stroke="#17384A" stroke-width="7"/></g>
+<path d="M1050 655 C1125 605 1220 570 1330 575" fill="none" stroke="#C84F5F" stroke-width="18" stroke-linecap="round"/>
+<g>
+      <rect x="1085" y="230" width="330" height="66" rx="22" fill="#EEF4F5" stroke="#D6E4E6" stroke-width="3"/>
+      <text x="1111" y="273" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#17384A">Impacted wisdom tooth</text>
+    </g>
+</svg>
